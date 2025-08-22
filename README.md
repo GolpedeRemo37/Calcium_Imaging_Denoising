@@ -1,2 +1,15 @@
-# Calcium_Imaging_Denoising
-Submission for the AI4Life Calcium Imaging Denoising Challenge 2025. Implements self-supervised Noise2Void denoising using NAFNet architecture, optimized for calcium imaging data with photon shot and read noise. Supports 3D stacks, preserves spatial-temporal dynamics. Docker-ready for Grand Challenge.
+# 2D Denoising Submission (FMD)
+
+This container performs 2D image denoising using a pretrained model.
+
+## Usage
+
+Run the container with input and output folders mounted:
+
+```bash
+docker run --rm \
+  -v $(pwd)/test/input:/workspace/input \
+  -v $(pwd)/test/output:/workspace/output \
+  denoising-fmd \
+  --input_dir ./input \
+  --output_dir ./output

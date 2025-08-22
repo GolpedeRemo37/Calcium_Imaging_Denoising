@@ -1,0 +1,43 @@
+[
+    {
+        "file": null,
+        "image": {
+            "name": "A1_stack_000_009.tif"
+        },
+        "value": null,
+        "interface": {
+            "slug": "stacked-images-subject-to-unstructured-noise",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/image-stack-unstructured-noise",
+            "example_value": null
+        }
+    },
+    {
+        "file": null,
+        "image": {
+            "name": "B1_stack_000_009.tif"
+        },
+        "value": null,
+        "interface": {
+            "slug": "stacked-images-subject-to-unstructured-noise",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/image-stack-unstructured-noise",
+            "example_value": null
+        }
+    },    {
+        "file": null,
+        "image": {
+            "name": "C1_stack_000_009.tif"
+        },
+        "value": null,
+        "interface": {
+            "slug": "stacked-images-subject-to-unstructured-noise",
+            "kind": "Image",
+            "super_kind": "Image",
+            "relative_path": "images/image-stack-unstructured-noise",
+            "example_value": null
+        }
+    }
+]

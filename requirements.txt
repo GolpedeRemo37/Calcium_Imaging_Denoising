@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+tifffile
+numpy
+tqdm
+scikit-image
+matplotlib
+
