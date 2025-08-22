@@ -64,6 +64,7 @@ docker build -t denoising-calcium .
 ```
 .
 ├── Dockerfile                  # Docker image for Grand Challenge inference
+├── NafNet2Void.ipynb           # Python Notebook used to train the model
 ├── do_save.sh                  # Script to save model/outputs
 ├── do_test_run.sh              # Script to build and test Docker locally
 ├── evaluate.py                 # Custom evaluation script for metrics
