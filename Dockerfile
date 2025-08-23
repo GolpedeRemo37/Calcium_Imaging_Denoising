@@ -23,7 +23,7 @@ COPY N2V_Vanilla/ ./N2V_Vanilla/
 COPY N2V_Vanilla/best_model_NafNet_Noise2Void.pth /opt/app/model/best_model_NafNet_Noise2Void.pth
 
 # Copy inference script
-COPY inference.py .
+COPY predict.py .
 
 # Create input/output directories with proper permissions
 RUN mkdir -p /input /output && chown -R user:user /opt/app /input /output
@@ -32,4 +32,4 @@ RUN mkdir -p /input /output && chown -R user:user /opt/app /input /output
 USER user
 
 # Set entrypoint
-ENTRYPOINT ["python", "inference.py"]
+ENTRYPOINT ["python", "predict.py"]
