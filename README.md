@@ -72,7 +72,7 @@ docker build -t denoising-calcium .
 ├── README.md                   # This file
 ├── requirements.txt            # Python dependencies
 ├── N2V_Vanilla/                # Core N2V + NAFNet package
-│   ├── best_model_NafNet_Noise2Void.pth  # Trained model weights on the simplest configuration `(look on models.py)`
+│   ├── best_model_NafNet_Noise2Void.pth  # Trained model weights on the simplest configuration (look on models.py)
 │   ├── config.py               # Training configuration
 │   ├── dataset.py              # Training/validation datasets
 │   ├── losses.py               # Loss functions
