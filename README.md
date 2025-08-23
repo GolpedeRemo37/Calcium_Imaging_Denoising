@@ -103,13 +103,9 @@ docker build -t denoising-calcium .
 
 ### Training
 
-Train the N2V model with NAFNet:
+Train the N2V model with NAFNet using the Notebook.
 
-```bash
-python main.py
-```
-
-- Configured for medium NAFNet, advanced loss, 50 epochs, batch size 32
+- Configured for small NAFNet, advanced loss, 50 epochs, batch size 32
 - Outputs checkpoints, validation images, and curves to `./training_output`
 - Expects training slices in `E:\PHD\phd_env\Proyectos\Denoising_challenge\Calcium\Data\Train\slices`
 
